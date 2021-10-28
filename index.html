@@ -1,9 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
+  
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="/home/greta/Public/cv/logomb.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/home/greta/Public/cv/logomb.png">
   <title>Structure page HTML</title>
 </head>
 <body>
@@ -13,6 +16,15 @@
       <img src="https://picsum.photos/1600/300"  alt="Photo deco">
     </figure>
     <nav>
+      <ul class="nav-header">
+        <li><a href="#" title="A propos">A propos</a></li>
+        <li><a href="#" title="Mes compétences">Compétence</a></li>
+        <li><a href="#" title="Expériences professionelles">Expérience</a></li>
+        <li><a href="#" title="Formation">Formation</a></li>
+        <li><a href="#" title="Contact">Contact</a></li>
+      </ul>
+      
+      
       
     </nav>
     <h1>Développeur front-end</h1>
@@ -20,13 +32,101 @@
   </header> 
   <main>
     <section>
-    
+      <article>
+        <h2>A propos</h2>
+        <figure>
+          <img src="https://via.placeholder.com/150" alt="Photo profil">
+        </figure>
+        <header>
+        <ul>
+          <li>BELLAHCENE</li>
+          <li>MOHAMMED</li>
+          <li><a href="mailto:johndupont@gmail.com">Contacter moi</a> </li>
+          <li><a href="tel:01123455">Téléphone</a></li>
+          <li><address> 8 Rue Gaston Monmousseau 95100 Argenteuil</address></li>
+        </ul>
+        </header>
+        
+      </article>
+    </section>
+      <h2>Expériences professionnelles</h2>
+      <article>
+      <h3>Nom de l'entreprise</h3>
+      <h3>Nom du poste</h3>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.<br> Veniam, ea laboriosam! Vero, nostrum! Cumque soluta,<br>
+        magni animi ipsam accusamus,<br>
+        numquam vero molestias mollitia alias modi ratione quis ad? Obcaecati, laboriosam.</p>
+        </article>
+    <hr>
+    <section>
+    <h2>Expériences professionnelles</h2>
+      <article>
+      <h3>Nom de l'entreprise</h3>
+      <h3>Nom du poste</h3>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.<br> Veniam, ea laboriosam! Vero, nostrum! Cumque soluta,<br>
+        magni animi ipsam accusamus,<br>
+        numquam vero molestias mollitia alias modi ratione quis ad? Obcaecati, laboriosam.</p>
+        <pre>
+          ul.nav-header {
+          list-style:none;
+          width:500px;
+          margin:0 auto;
+          }
+        </pre>
+        </article>
+      <hr>
+    </section>
+      
+    <section>
+      <table>
+       <caption>Compétences front-end</caption>
+        <thead>
+          <tr>
+          <td>Langages</td>
+          <td>Progression</td>
+           </tr>
+        </thead>
+      <tr>
+        <td>HTML</td>
+        <td><progress id ="file1" max="100" value="70"> 70% </progress></td>
+      </tr>
+      <tr>
+        <td>CSS</td>
+        <td><progress id ="file2" max="100" value="30"> 30% </progress></td>
+      </tr>
+      <tr>
+        <td>GIT</td>
+        <td><progress id ="file3" max="100" value="40">40%</progress></td>
+      </tr>
+      <tr>
+        <td>JAVASCRPT</td>
+        <td><progress id ="file4" max="100" value="10">10%</progress></td>
+      </tr>
+    </table>
     </section>
     <section>
-    
-    </section>
-    <section>
-    
+      <h2>Formations</h2>
+      <article>
+      
+      <h3>Développeur python</h3>
+      <h3>Greta 78</h3>
+      <h3><span>Date:01/12/2020</span> <span>Durée : 3 mois</span></h3>
+       <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.<br> Necessitatibus, possimus modi temporibus blanditiis obcaecati cupiditate harum?<br> Nihil voluptatem tenetur exercitationem et blanditiis distinctio nulla harum quibusdam corporis, ipsam, aliquid saepe.</p>
+      </article>
+        <article>
+      
+      <h3>DevOps</h3>
+      <h3>Greta 92</h3>
+      <h3><span>Date:07/09/2021</span> <span>Durée : 1 mois</span></h3>
+       <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.<br> Necessitatibus, possimus modi temporibus blanditiis obcaecati cupiditate harum?<br> Nihil voluptatem tenetur exercitationem et blanditiis distinctio nulla harum quibusdam corporis, ipsam, aliquid saepe.</p>
+      </article>
+        <article>
+      
+      
+      <h3>Greta 92</h3>
+      <h3><span>Date:25/09/2021</span> <span>Durée : 3 mois</span></h3>
+       <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.<br> Necessitatibus, possimus modi temporibus blanditiis obcaecati cupiditate harum?<br> Nihil voluptatem tenetur exercitationem et blanditiis distinctio nulla harum quibusdam corporis, ipsam, aliquid saepe.</p>
+      </article>
     </section>
   </main>
   <footer>
