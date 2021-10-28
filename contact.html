@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon.png">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" rel="stylesheet">
+  
+  <title>Structure page HTML</title>
+</head>
+<body>
+  <header>
+    <figure>
+        <!-- Ceci est un commentaire -->
+      <img src="https://picsum.photos/1600/300"  alt="Photo deco">
+    </figure>
+    <nav>
+      <ul class="nav-header">
+        <li><a href="#apropos" title="A propos">A propos</a></li>
+        <li><a href="#competences" title="Mes compétences">Compétence</a></li>
+        <li><a href="#experieces" title="Expériences professionelles">Expérience</a></li>
+        <li><a href="#formations" title="Formation">Formations</a></li>
+        <li><a href="#cntact" title="Contact">Contact</a></li>
+      </ul>
+      
+      
+      
+    </nav>
+    <h1>contact</h1>
+    <form action="contact.php" method="POST">
+        <div>
+            <fieldset>
+                <label for="nom">Nom : </label>
+                <input type="text" id="nom" placeholder="Votre nom " name="nom" required>
+            </fieldset>
+        </div>
+        <div>
+            <fieldset>
+                <label for="prenom">Prenom : </label>
+                <input type="text" id="prenom" placeholder="Votre prenom " name="nom" required>
+            </fieldset>
+        </div>
+        <div>
+            <fieldset>
+                <label for="telephone">Telephone : </label>
+                <input type="text" id="telephone" placeholder="Votre telephone " name="telephone" required>
+            </div>
+            <div>
+                <fieldset>
+                <label for="email">Email : </label>
+                <input type="email" id="email" placeholder="Votre email " name="email" required>
+
+            </fieldset>
+            </div>
+        <div>
+            <fieldset>
+                <label for="contrat">Type de contrat : </label>
+                  <select name="contrat" id="contrat">
+                    <option value=""> --Selectionner un contrat</option>
+                    <option value="cdi"> CDI</option>
+                     <option value="interim"> INTERIM</option>
+                     <option value="freelance">FREELANCE</option>
+                  </select>
+                <input type="submit" value="Envoyer">
+                  
+              </fieldset>
+        </div>
+
+        
+    </form>
+
+  </header> 
+</body>
