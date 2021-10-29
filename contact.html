@@ -10,12 +10,13 @@
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" rel="stylesheet">
   
   <title>Structure page HTML</title>
+ 
 </head>
 <body>
   <header>
     <figure>
         <!-- Ceci est un commentaire -->
-      <img src="https://picsum.photos/1600/300"  alt="Photo deco">
+      <img src="assets/img/dev-worker_x2100.jpg"  alt="Photo deco" srcset="assets/img/dev-worker_x2100.jpg 2100w,assets/img/dev-worker_x1550.jpg 1550w, assets/img/dev-worker_x775.jpg 775w , assets/img/dev-worker_x390.jpg 390w" sizes="(min-width:400) 775px(min-width:960) 1150px (min-width:1600) 2100px , 100vw" >
     </figure>
     <nav>
       <ul class="nav-header">
@@ -31,30 +32,34 @@
     </nav>
     <h1>contact</h1>
     <form action="contact.php" method="POST">
+      <fieldset>
         <div>
-            <fieldset>
+           
                 <label for="nom">Nom : </label>
                 <input type="text" id="nom" placeholder="Votre nom " name="nom" required>
-            </fieldset>
+            
         </div>
         <div>
-            <fieldset>
+            
                 <label for="prenom">Prenom : </label>
                 <input type="text" id="prenom" placeholder="Votre prenom " name="nom" required>
-            </fieldset>
+            
         </div>
-        <div>
-            <fieldset>
+      </fieldset>
+      <fieldset>
+          <div>
+            
                 <label for="telephone">Telephone : </label>
                 <input type="text" id="telephone" placeholder="Votre telephone " name="telephone" required>
             </div>
             <div>
-                <fieldset>
+                
                 <label for="email">Email : </label>
                 <input type="email" id="email" placeholder="Votre email " name="email" required>
 
-            </fieldset>
+            
             </div>
+          </fieldset>
         <div>
             <fieldset>
                 <label for="contrat">Type de contrat : </label>

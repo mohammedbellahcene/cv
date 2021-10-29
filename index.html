@@ -8,14 +8,17 @@
   <link rel="icon" type="image/png" sizes="32x32" href="favicon.png">
   <link rel="icon" type="image/png" sizes="16x16" href="favicon.png">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" rel="stylesheet">
+  <link href="assets/css/style.css" rel="stylesheet">
+  <link href="assets/css/reset.css" rel="stylesheet">
   
   <title>Structure page HTML</title>
+  
 </head>
 <body>
   <header>
     <figure>
         <!-- Ceci est un commentaire -->
-      <img src="https://picsum.photos/1600/300"  alt="Photo deco">
+        <img src="assets/img/dev-worker_x2100.jpg"  alt="Photo deco" srcset="assets/img/dev-worker_x2100.jpg 2100w,assets/img/dev-worker_x1550.jpg 1550w, assets/img/dev-worker_x775.jpg 775w , assets/img/dev-worker_x390.jpg 390w" sizes="(min-width:400) 775px(min-width:960) 1150px (min-width:1600) 2100px , 100vw" >
     </figure>
     <nav>
       <ul class="nav-header">
@@ -32,7 +35,7 @@
     <h1>Développeur front-end</h1>
 
   </header> 
-  <main>
+  <main id="main">
     <section id="apropos">
       <article>
         <h2>A propos</h2>
@@ -131,7 +134,7 @@
       </article>
     </section>
   </main>
-  <footer>
+  <footer id="footer">
     <div><span><i class="fab fa-facebook-square"></i></span><i class="fab fa-linkedin-in"></i><span></span><i class="fab fa-twitter-square"></i><span></span></div>
   </footer>
   

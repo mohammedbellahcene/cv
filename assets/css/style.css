@@ -1,0 +1,28 @@
+@font-face {
+    font-family: "Rboto";
+    src: url(../fonts/roboto_regular_macroman/Roboto-Regular-webfont.woff);
+    font-display: swap;
+}
+#footer{
+    background: url(../img/bg-motif.jpg);
+    background-repeat: no-repeat;
+    /*background-position: center center;*/
+    height: 300px;
+}
+#main{
+    width: 80%;
+    margin:0 auto;
+}
+nav ul {
+    width: 70%;
+    margin: 0 auto;
+    background-color: silver;
+    height: 50px;
+    text-align: center;
+
+}
+
+nav ul li{
+    margin-right: 20px;
+    float:left;
+}
